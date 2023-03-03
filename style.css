@@ -1,0 +1,182 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-color: lightcyan;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* overflow-y: scroll;
+  height: 1000px; */
+}
+
+nav img {
+  margin-top: 5px;
+  width: 150px;
+}
+
+.nav-box {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  /* position: fixed; */
+  width: 100%;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.menu-list li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.link-button {
+  color: #3352FF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.link-button:hover {
+  color: #de3163;
+  transition: 0.3s;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  flex-direction: column;
+}
+
+.tittle {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+  padding: 20px;
+}
+
+div img {
+  max-width: 400px;
+  height: auto;
+}
+
+div button {
+  width: 15%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.label-counter {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+#counter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.flex-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #333;
+}
+
+.footer-container {
+  margin: 25px 0;
+}
+
+.footer-container h2{
+  text-align: center;
+  font-weight: bold;
+  color: rgb(182, 45, 182);
+}
+
+.redes_sociales-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes_sociales-container a {
+  color: #ffffffe1;
+  font-size: 40px;
+  margin: 25px 40px;
+  margin-top: 25px;
+}
+
+.redes_sociales-container a:hover {
+  opacity: 0.9;
+} 
+
+.footer-container p {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.icon-facebook:hover {
+  color: #3b5998;
+  transition: 0.3s;
+}
+
+.icon-instagram:hover {
+  color: #000000;
+  transition: 0.3s;
+}
+
+.icon-whatsapp:hover {
+  color: #25D366;
+  transition: 0.3s;
+}
+
+.icon-twitter:hover {
+  color: skyblue;
+  transition: 0.3s;
+}
+
+.flex-container i {
+  margin: 50px 0;
+  opacity: 0.9;
+  font-size: 105px;
+  animation-name: animar;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animar {
+  0% {
+      transform: scale(0.8);
+      color: darkblue;
+  }
+}
